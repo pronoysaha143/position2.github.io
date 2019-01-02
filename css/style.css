@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.wrapper {
+    width: 960px;
+    height: 800px;
+    background-color: darkgray;
+    margin: auto;
+    position: relative;
+}
+
+.one,
+.two,
+.three {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    -ms-transition: all .5s;
+    -moz-transition: all .5s;
+}
+
+.one:hover,
+.two:hover,
+.three:hover {
+    z-index: 1;
+    cursor: pointer;
+    background-color: chartreuse;
+    width: 300px;
+}
+
+.one {
+    background-color: coral;
+    border: 5px dotted blue;
+    top: 0px;
+    left: 0px;
+}
+
+.two {
+    background-color: darkmagenta;
+    border: 5px dotted red;
+    top: 100px;
+    left: 100px;
+}
+
+.three {
+    background-color: deeppink;
+    border: 5px dotted yellow;
+    top: 200px;
+    left: 200px;
+}
